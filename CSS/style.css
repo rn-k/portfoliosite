@@ -1,0 +1,351 @@
+@charset "utf-8";
+body{
+  margin:0;
+  padding:0;
+  background-color:#ffffff;
+  color: black;
+  font-size: 15px;
+  line-height: 2;
+  
+}
+p,h1,h2,h3,h4,h5{
+  margin: 0px;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  color: #3583aa;
+  text-decoration:none;
+}
+
+a:visited{
+  color:#788d98;
+}
+
+header{
+  width:100%;
+  height: 80px;
+  background-attachment: fixed;
+  background-image: url(../icon/consept_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;  
+}
+
+header::before{
+  content: '';
+  background-color: rgba(0,0,0,.5);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.header_logo {
+  float:left;
+  margin: 30px 0px 0px 80px;
+  position: relative;
+}
+/* 画像サイズ設定 */
+.header_logo img{
+  height: 20px;
+}
+/* /ナビ部分 */
+.global-nav{
+  float: right;
+  margin-right:50px;
+}
+
+.global-nav li{
+  float: left;
+  padding: 0 30px;
+  margin: 20px 0px;
+  list-style:none;
+  font-size: 20px;
+}
+
+.global-nav li a{
+  font-family: 'Noto Sans', sans-serif;
+  color:white;
+  position: relative;
+}
+
+.global-nav li a:hover{
+  border-bottom:1px solid white;
+  padding-bottom:3px;
+}
+
+#top{
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-image: url(../icon/consept_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative; 
+  color: white;
+
+}
+#top::before{
+  content: '';
+  background-color: rgba(0,0,0,.5);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* 画像の大きさ */
+#top img{
+  height: 150px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  /* 座標を画像の中心に移動する */
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+}
+
+/* works */
+
+#works{
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-image: url(../icon/consept_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative; 
+  color: white;
+ 
+}
+
+#works::before{
+  content: '';
+  background-color: rgba(0,0,0,.5);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.works{
+  width: 100%;
+  background-color: rgba(0, 158, 150, 0.658);
+  position: relative;
+}
+.works h1{
+  color: white;
+  position: relative;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 100px;
+}
+
+#works .element{
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 200px;
+  padding-top: 50px;
+}
+
+.element h1{
+  line-height: 1.5;
+  font-size: 140px;
+  color: rgb(255, 255, 255);
+  font-family: 'Bebas Neue', cursive;
+  
+}
+
+/* wrap以下 */
+#wrap{
+  background-color: white;
+}
+#title{
+  display: table-cell;
+  width: 25%;
+}
+
+#consept{
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-image: url(../icon/consept_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative; 
+  color: white;
+  display: table;
+}
+
+#consept::before{
+  content: '';
+  background-color: rgba(0,0,0,.5);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.consept{
+  display: table-cell;
+  width: 25%;
+  background-color: rgba(255, 0, 43, 0.658);
+  position: relative;
+}
+.consept h1{
+  color: white;
+  position: relative;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 100px;
+  top: 50%;
+  left: 70%;
+  /* 座標を画像の中心に移動する */
+  transform: translateY(-50%) translateX(-50%);
+  -webkit-transform: translateY(-50%) translateX(-50%);
+}
+
+#consept .element{
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 200px;
+  padding-top: 50px;
+}
+
+.element h1{
+  line-height: 1.5;
+  font-size: 140px;
+  color: rgb(255, 255, 255);
+  font-family: 'Bebas Neue', cursive;
+  
+}
+
+
+#profile {
+  width: 100%;
+  height: 400px;
+  /* background-image: url(../icon/consept_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative; 
+  color:white; */
+  display:table;
+}
+
+
+#profile .box_title{
+  position: absolute; 
+  font-family: 'Bebas Neue', cursive;
+  font-size: 150px;
+  margin: 300px  0px 0px 100px;
+  text-align: left;
+}
+
+#profile .element{
+  float: right;
+  position: absolute;
+
+}
+#contact{
+  width: 100%;
+  height: 10vh;
+  background-attachment: fixed;
+  background-image: url(../icon/consept_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative; 
+  background-color: transparent;
+  display: table;
+}
+
+#contact::before{
+  content: '';
+  background-color: rgba(0,0,0,.5);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#contact h1{
+  font-size: 150px;
+  position: absolute;
+  text-align: center;
+  color: #3583aa;
+  font-family: 'Bebas Neue', cursive;
+}
+/* footer */
+footer{
+  width: 100%;
+  
+  background-attachment: fixed;
+  background-image: url(../icon/consept_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative; 
+  color: white;
+}
+
+footer::before{
+  content: '';
+  background-color: rgba(0,0,0,.5);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+footer .element{
+  padding: 25px 0px 0px 0px;
+  text-align: center;
+  position: relative;
+}
+footer ul{
+  display: inline-block;
+}
+footer li{
+  width: 200px;
+  list-style: none;
+  margin-top: 0px;
+  float:left;
+  margin:0px 20px;
+  display: block;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: white;
+}
+
+footer li:hover{
+  background-color: black;
+}
+footer li p:hover{
+  color: white;
+}
+
+footer p{
+  color:black;
+  font-size:15px;
+  text-align: center;
+  padding: 25px;
+}
+footer .footer_name{
+  color:white;
+}
+

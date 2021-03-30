@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Contact page | [Re.New]</title>
+<link href="CSS/style.css" rel="stylesheet">
+<link href="icon/favicon.ico" rel="shortcut icon">
+<!-- google font -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body id="contact">
+<!--header始まり-->
+  <header>
+    <div class="header_area">
+      <div class="header_logo">
+        <a href="index.html"><img src="icon/title_w.PNG" alt="Ryuichi Nishioka Profilepage"></a>
+      </div>
+      <nav id="nav">
+        <ul class="global-nav">
+          <li><a href="index.html#consept">CONSEPT</a></li>
+          <li><a href="index.html#profile">PROFILE</a></li>
+          <li><a href="index.html#spec">SPEC</a></li>
+          <li><a href="index.html#works">WORKS</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>  
+      </nav>
+    </div>
+  </header>
+<!--header終わり-->
+
+<!--wrap始まり-->
+  <div id="wrap">
+    <div class="contact_form box">
+        <h1>CONTACT</h1>
+        <p>気軽にお問い合わせください</p>
+        <form>
+          <table>
+            <!-- 名前 -->
+            <tr>
+              <th>お名前</th>
+              <td><input type="text" name="name" class="name" placeholder="例）〇〇　〇〇" required></td>
+            </tr>
+            <tr>
+              <th>お名前(フリガナ)</th>
+              <td><input type="text" name="name" class="name_red"  required></td>
+            </tr>
+            <!-- メールアドレス -->
+            <tr>
+              <th>メールアドレス</th>
+              <td><input type="text" name="mail" placeholder="例）info@example.com" required></td>
+            </tr>
+            <!-- 電話番号 -->
+            <tr>
+              <th>お電話番号</th>
+              <td><input type="text" name="mail" placeholder="ハイフンなし、半角で入力" required></td>
+            </tr>
+            <tr>
+              <th>会社</th>
+              <td><input type="text" name="group" placeholder="会社名を記入してください" required></td>
+            </tr>
+            <!-- 問い合わせ種類 -->
+            <tr>
+              <th>お問い合わせ種別</th>
+              <td>
+                <input type="radio" class="type" name="contact" required>Web制作<br>
+                <input type="radio" class="type" name="contact" required>App制作<br>
+                <input type="radio" class="type" name="contact" required>その他
+              </td>
+            </tr>
+            <!-- 問い合わせ内容 -->
+            <tr>
+              <th>お問い合わせ内容</th>
+              <td>
+                <textarea placeholder="お問い合わせ詳細をご記入ください" required></textarea>
+              </td>
+            </tr>
+          </table>
+          <div class="btn">
+            <div class="submit_btn">
+              <input type="submit" value="送信する">
+            </div>
+          </div>
+      
+        </form>
+      </div>
+      <div class="space"></div>
+    </div>
+      
+  </div>
+<!--wrap終わり-->
+<!--footer始まり-->
+  <footer>
+    <div class="element">
+      <p class="footer_name"><small>(C)2021 Ryuichi_Nishioka.</small></p>
+    </div>
+  </footer>
+<!--footer終わり-->
+</body>
+</html>
